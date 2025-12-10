@@ -1,0 +1,12 @@
+{
+  "senders": [
+    "sender1@example.com",
+    "events@domain.com"
+  ],
+  "calendar_id": "primary",
+  "sheet_id": "your-google-sheet-id",
+  "default_event_duration_minutes": 60,
+  "lookback_days": 7,
+  "timezone": "UTC",
+  "description_template": "Source: {sender}\\nSummary: {snippet}"
+}
